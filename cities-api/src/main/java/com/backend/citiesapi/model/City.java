@@ -36,6 +36,9 @@ public class City {
     @Column(name="lat_lon", updatable = false, insertable = false)
     private Point location;
 
+    @Column(name="lat_lon")
+    private String geolocation;
+
     private Double longitude;
 
     private Double latitude;
